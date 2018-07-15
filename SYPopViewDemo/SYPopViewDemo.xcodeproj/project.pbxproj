@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62BA01D795CBD685A36D9253 /* libPods-SYPopViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C559413AD9244E8F671531 /* libPods-SYPopViewDemo.a */; };
+		B3B8C3A320FA14B5008F9B1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3A220FA14B5008F9B1D /* AppDelegate.m */; };
+		B3B8C3A620FA14B5008F9B1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3A520FA14B5008F9B1D /* ViewController.m */; };
+		B3B8C3A920FA14B5008F9B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B8C3A720FA14B5008F9B1D /* Main.storyboard */; };
+		B3B8C3AB20FA14B6008F9B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B8C3AA20FA14B6008F9B1D /* Assets.xcassets */; };
+		B3B8C3AE20FA14B6008F9B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B8C3AC20FA14B6008F9B1D /* LaunchScreen.storyboard */; };
+		B3B8C3B120FA14B6008F9B1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3B020FA14B6008F9B1D /* main.m */; };
+		B3B8C3BB20FA14B6008F9B1D /* SYPopViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3BA20FA14B6008F9B1D /* SYPopViewDemoTests.m */; };
+		B3B8C3C620FA14B6008F9B1D /* SYPopViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3C520FA14B6008F9B1D /* SYPopViewDemoUITests.m */; };
+		B3B8C3DC20FA1735008F9B1D /* SYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3DB20FA1735008F9B1D /* SYMenu.m */; };
+		B3B8C3DF20FA1783008F9B1D /* SYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3DE20FA1783008F9B1D /* SYMenuView.m */; };
+		B3B8C3E220FA17A1008F9B1D /* SYMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3E120FA17A1008F9B1D /* SYMenuTableViewCell.m */; };
+		B3B8C3E520FA186C008F9B1D /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3E320FA186C008F9B1D /* UIColor+HexColor.m */; };
+		B3B8C3E820FADE1E008F9B1D /* UIButton+SYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B8C3E720FADE1E008F9B1D /* UIButton+SYMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3B8C3B720FA14B6008F9B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B8C39620FA14B5008F9B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B8C39D20FA14B5008F9B1D;
+			remoteInfo = SYPopViewDemo;
+		};
+		B3B8C3C220FA14B6008F9B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B8C39620FA14B5008F9B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B8C39D20FA14B5008F9B1D;
+			remoteInfo = SYPopViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28BE09DCB22DA377B091995C /* Pods-SYPopViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopViewDemo/Pods-SYPopViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		38984C735523B13319CE464B /* Pods-SYPopViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopViewDemo/Pods-SYPopViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B3B8C39E20FA14B5008F9B1D /* SYPopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYPopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B8C3A120FA14B5008F9B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3B8C3A220FA14B5008F9B1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3B8C3A420FA14B5008F9B1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3B8C3A520FA14B5008F9B1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3B8C3A820FA14B5008F9B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3B8C3AA20FA14B6008F9B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3B8C3AD20FA14B6008F9B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3B8C3AF20FA14B6008F9B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B8C3B020FA14B6008F9B1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3B8C3B620FA14B6008F9B1D /* SYPopViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPopViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B8C3BA20FA14B6008F9B1D /* SYPopViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPopViewDemoTests.m; sourceTree = "<group>"; };
+		B3B8C3BC20FA14B6008F9B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B8C3C120FA14B6008F9B1D /* SYPopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B8C3C520FA14B6008F9B1D /* SYPopViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPopViewDemoUITests.m; sourceTree = "<group>"; };
+		B3B8C3C720FA14B6008F9B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B8C3DA20FA1735008F9B1D /* SYMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMenu.h; sourceTree = "<group>"; };
+		B3B8C3DB20FA1735008F9B1D /* SYMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMenu.m; sourceTree = "<group>"; };
+		B3B8C3DD20FA1783008F9B1D /* SYMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMenuView.h; sourceTree = "<group>"; };
+		B3B8C3DE20FA1783008F9B1D /* SYMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMenuView.m; sourceTree = "<group>"; };
+		B3B8C3E020FA17A1008F9B1D /* SYMenuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMenuTableViewCell.h; sourceTree = "<group>"; };
+		B3B8C3E120FA17A1008F9B1D /* SYMenuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMenuTableViewCell.m; sourceTree = "<group>"; };
+		B3B8C3E320FA186C008F9B1D /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		B3B8C3E420FA186C008F9B1D /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		B3B8C3E620FADE1E008F9B1D /* UIButton+SYMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SYMenu.h"; sourceTree = "<group>"; };
+		B3B8C3E720FADE1E008F9B1D /* UIButton+SYMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SYMenu.m"; sourceTree = "<group>"; };
+		B3B8C3E920FB50D9008F9B1D /* SYUIConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYUIConstant.h; sourceTree = "<group>"; };
+		C5C559413AD9244E8F671531 /* libPods-SYPopViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPopViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3B8C39B20FA14B5008F9B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BA01D795CBD685A36D9253 /* libPods-SYPopViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8C3B320FA14B6008F9B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8C3BE20FA14B6008F9B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267624888856EE601A8B7AD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28BE09DCB22DA377B091995C /* Pods-SYPopViewDemo.debug.xcconfig */,
+				38984C735523B13319CE464B /* Pods-SYPopViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		626F138AE1F019B122AFD314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C559413AD9244E8F671531 /* libPods-SYPopViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3B8C39520FA14B5008F9B1D = {
+			isa = PBXGroup;
+			children = (
+				B3B8C3D320FA14DA008F9B1D /* SYPopView */,
+				B3B8C3A020FA14B5008F9B1D /* SYPopViewDemo */,
+				B3B8C3B920FA14B6008F9B1D /* SYPopViewDemoTests */,
+				B3B8C3C420FA14B6008F9B1D /* SYPopViewDemoUITests */,
+				B3B8C39F20FA14B5008F9B1D /* Products */,
+				267624888856EE601A8B7AD6 /* Pods */,
+				626F138AE1F019B122AFD314 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B8C39F20FA14B5008F9B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C39E20FA14B5008F9B1D /* SYPopViewDemo.app */,
+				B3B8C3B620FA14B6008F9B1D /* SYPopViewDemoTests.xctest */,
+				B3B8C3C120FA14B6008F9B1D /* SYPopViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B8C3A020FA14B5008F9B1D /* SYPopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C3A120FA14B5008F9B1D /* AppDelegate.h */,
+				B3B8C3A220FA14B5008F9B1D /* AppDelegate.m */,
+				B3B8C3A420FA14B5008F9B1D /* ViewController.h */,
+				B3B8C3A520FA14B5008F9B1D /* ViewController.m */,
+				B3B8C3A720FA14B5008F9B1D /* Main.storyboard */,
+				B3B8C3AA20FA14B6008F9B1D /* Assets.xcassets */,
+				B3B8C3AC20FA14B6008F9B1D /* LaunchScreen.storyboard */,
+				B3B8C3AF20FA14B6008F9B1D /* Info.plist */,
+				B3B8C3B020FA14B6008F9B1D /* main.m */,
+			);
+			path = SYPopViewDemo;
+			sourceTree = "<group>";
+		};
+		B3B8C3B920FA14B6008F9B1D /* SYPopViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C3BA20FA14B6008F9B1D /* SYPopViewDemoTests.m */,
+				B3B8C3BC20FA14B6008F9B1D /* Info.plist */,
+			);
+			path = SYPopViewDemoTests;
+			sourceTree = "<group>";
+		};
+		B3B8C3C420FA14B6008F9B1D /* SYPopViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C3C520FA14B6008F9B1D /* SYPopViewDemoUITests.m */,
+				B3B8C3C720FA14B6008F9B1D /* Info.plist */,
+			);
+			path = SYPopViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		B3B8C3D320FA14DA008F9B1D /* SYPopView */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8C3E620FADE1E008F9B1D /* UIButton+SYMenu.h */,
+				B3B8C3E720FADE1E008F9B1D /* UIButton+SYMenu.m */,
+				B3B8C3DA20FA1735008F9B1D /* SYMenu.h */,
+				B3B8C3DB20FA1735008F9B1D /* SYMenu.m */,
+				B3B8C3DD20FA1783008F9B1D /* SYMenuView.h */,
+				B3B8C3DE20FA1783008F9B1D /* SYMenuView.m */,
+				B3B8C3E020FA17A1008F9B1D /* SYMenuTableViewCell.h */,
+				B3B8C3E120FA17A1008F9B1D /* SYMenuTableViewCell.m */,
+				B3B8C3E420FA186C008F9B1D /* UIColor+HexColor.h */,
+				B3B8C3E320FA186C008F9B1D /* UIColor+HexColor.m */,
+				B3B8C3E920FB50D9008F9B1D /* SYUIConstant.h */,
+			);
+			path = SYPopView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3B8C39D20FA14B5008F9B1D /* SYPopViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B8C3CA20FA14B6008F9B1D /* Build configuration list for PBXNativeTarget "SYPopViewDemo" */;
+			buildPhases = (
+				D51A046137957C46E5C6ECAA /* [CP] Check Pods Manifest.lock */,
+				B3B8C39A20FA14B5008F9B1D /* Sources */,
+				B3B8C39B20FA14B5008F9B1D /* Frameworks */,
+				B3B8C39C20FA14B5008F9B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYPopViewDemo;
+			productName = SYPopViewDemo;
+			productReference = B3B8C39E20FA14B5008F9B1D /* SYPopViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3B8C3B520FA14B6008F9B1D /* SYPopViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B8C3CD20FA14B6008F9B1D /* Build configuration list for PBXNativeTarget "SYPopViewDemoTests" */;
+			buildPhases = (
+				B3B8C3B220FA14B6008F9B1D /* Sources */,
+				B3B8C3B320FA14B6008F9B1D /* Frameworks */,
+				B3B8C3B420FA14B6008F9B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B8C3B820FA14B6008F9B1D /* PBXTargetDependency */,
+			);
+			name = SYPopViewDemoTests;
+			productName = SYPopViewDemoTests;
+			productReference = B3B8C3B620FA14B6008F9B1D /* SYPopViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3B8C3C020FA14B6008F9B1D /* SYPopViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B8C3D020FA14B6008F9B1D /* Build configuration list for PBXNativeTarget "SYPopViewDemoUITests" */;
+			buildPhases = (
+				B3B8C3BD20FA14B6008F9B1D /* Sources */,
+				B3B8C3BE20FA14B6008F9B1D /* Frameworks */,
+				B3B8C3BF20FA14B6008F9B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B8C3C320FA14B6008F9B1D /* PBXTargetDependency */,
+			);
+			name = SYPopViewDemoUITests;
+			productName = SYPopViewDemoUITests;
+			productReference = B3B8C3C120FA14B6008F9B1D /* SYPopViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B8C39620FA14B5008F9B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "张枞楷";
+				TargetAttributes = {
+					B3B8C39D20FA14B5008F9B1D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B3B8C3B520FA14B6008F9B1D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B3B8C39D20FA14B5008F9B1D;
+					};
+					B3B8C3C020FA14B6008F9B1D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B3B8C39D20FA14B5008F9B1D;
+					};
+				};
+			};
+			buildConfigurationList = B3B8C39920FA14B5008F9B1D /* Build configuration list for PBXProject "SYPopViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3B8C39520FA14B5008F9B1D;
+			productRefGroup = B3B8C39F20FA14B5008F9B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B8C39D20FA14B5008F9B1D /* SYPopViewDemo */,
+				B3B8C3B520FA14B6008F9B1D /* SYPopViewDemoTests */,
+				B3B8C3C020FA14B6008F9B1D /* SYPopViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B8C39C20FA14B5008F9B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8C3AE20FA14B6008F9B1D /* LaunchScreen.storyboard in Resources */,
+				B3B8C3AB20FA14B6008F9B1D /* Assets.xcassets in Resources */,
+				B3B8C3A920FA14B5008F9B1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8C3B420FA14B6008F9B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8C3BF20FA14B6008F9B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D51A046137957C46E5C6ECAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYPopViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3B8C39A20FA14B5008F9B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8C3A620FA14B5008F9B1D /* ViewController.m in Sources */,
+				B3B8C3E520FA186C008F9B1D /* UIColor+HexColor.m in Sources */,
+				B3B8C3E820FADE1E008F9B1D /* UIButton+SYMenu.m in Sources */,
+				B3B8C3B120FA14B6008F9B1D /* main.m in Sources */,
+				B3B8C3E220FA17A1008F9B1D /* SYMenuTableViewCell.m in Sources */,
+				B3B8C3DC20FA1735008F9B1D /* SYMenu.m in Sources */,
+				B3B8C3A320FA14B5008F9B1D /* AppDelegate.m in Sources */,
+				B3B8C3DF20FA1783008F9B1D /* SYMenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8C3B220FA14B6008F9B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8C3BB20FA14B6008F9B1D /* SYPopViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8C3BD20FA14B6008F9B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B8C3C620FA14B6008F9B1D /* SYPopViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3B8C3B820FA14B6008F9B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B8C39D20FA14B5008F9B1D /* SYPopViewDemo */;
+			targetProxy = B3B8C3B720FA14B6008F9B1D /* PBXContainerItemProxy */;
+		};
+		B3B8C3C320FA14B6008F9B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B8C39D20FA14B5008F9B1D /* SYPopViewDemo */;
+			targetProxy = B3B8C3C220FA14B6008F9B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3B8C3A720FA14B5008F9B1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B8C3A820FA14B5008F9B1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3B8C3AC20FA14B6008F9B1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B8C3AD20FA14B6008F9B1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3B8C3C820FA14B6008F9B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3B8C3C920FA14B6008F9B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3B8C3CB20FA14B6008F9B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BE09DCB22DA377B091995C /* Pods-SYPopViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				INFOPLIST_FILE = SYPopViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhankail.SYPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3B8C3CC20FA14B6008F9B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38984C735523B13319CE464B /* Pods-SYPopViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				INFOPLIST_FILE = SYPopViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhankail.SYPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3B8C3CE20FA14B6008F9B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				INFOPLIST_FILE = SYPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangck.SYPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYPopViewDemo.app/SYPopViewDemo";
+			};
+			name = Debug;
+		};
+		B3B8C3CF20FA14B6008F9B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				INFOPLIST_FILE = SYPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangck.SYPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYPopViewDemo.app/SYPopViewDemo";
+			};
+			name = Release;
+		};
+		B3B8C3D120FA14B6008F9B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				INFOPLIST_FILE = SYPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangck.SYPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYPopViewDemo;
+			};
+			name = Debug;
+		};
+		B3B8C3D220FA14B6008F9B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				INFOPLIST_FILE = SYPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangck.SYPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYPopViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3B8C39920FA14B5008F9B1D /* Build configuration list for PBXProject "SYPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B8C3C820FA14B6008F9B1D /* Debug */,
+				B3B8C3C920FA14B6008F9B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B8C3CA20FA14B6008F9B1D /* Build configuration list for PBXNativeTarget "SYPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B8C3CB20FA14B6008F9B1D /* Debug */,
+				B3B8C3CC20FA14B6008F9B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B8C3CD20FA14B6008F9B1D /* Build configuration list for PBXNativeTarget "SYPopViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B8C3CE20FA14B6008F9B1D /* Debug */,
+				B3B8C3CF20FA14B6008F9B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B8C3D020FA14B6008F9B1D /* Build configuration list for PBXNativeTarget "SYPopViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B8C3D120FA14B6008F9B1D /* Debug */,
+				B3B8C3D220FA14B6008F9B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3B8C39620FA14B5008F9B1D /* Project object */;
+}
