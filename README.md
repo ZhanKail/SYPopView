@@ -1,7 +1,6 @@
 # SYPopView
 ### 效果图
-[image:D8474E51-8571-40D9-A9DB-0ADF6E82536C-424-0000FE91B1F9A60B/SYPopView.gif]
-
+/Users/zhangcongkai/虚拟桌面/github/SYPopView/SYPopView.gif
 
 ### Usage
 ```
