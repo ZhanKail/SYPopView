@@ -13,7 +13,6 @@
 
 - (void)showPopViewWithtitleArray:(NSArray *)titleArray didSelect:(void (^)(NSInteger))didSelect didDeSelect:(void (^)(void))didDeSelect{
     
-    //TODO: 固定的宽度, 后期实现宽度自定义
     CGFloat popViewWidth = SYPopViewWidth;
     CGFloat popViewHeight = titleArray.count>SYMaxItem? SYMaxItem*SYkMenuItemHeight:titleArray.count*SYkMenuItemHeight;
     CGRect rect = [self convertRect:self.bounds toView:nil];

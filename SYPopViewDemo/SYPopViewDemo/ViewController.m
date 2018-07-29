@@ -33,8 +33,8 @@
 
 - (UIButton *)button{
     if (!_button) {
-        _button = [[UIButton alloc]initWithFrame:CGRectMake(275, 100, 100, 100)];
-        _button.backgroundColor = [UIColor lightGrayColor];
+        _button = [UIButton buttonWithType:UIButtonTypeContactAdd];
+        _button.frame = CGRectMake(0, 100, 30, 30);
         [_button addTarget:self action:@selector(showPopView) forControlEvents:UIControlEventTouchUpInside];
     }
     return _button;
