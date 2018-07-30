@@ -1,7 +1,6 @@
 # SYPopView
 ### 效果图
-/Users/zhangcongkai/虚拟桌面/github/SYPopView/SYPopView.gif
-
+![image](https://github.com/ZhanKail/SYPopView/blob/master/SYPopView.gif)
 ### Usage
 ```
 - (void)viewDidLoad {
